@@ -1,0 +1,64 @@
+/* Utilitários */
+
+.texto{
+    font-weight: bold;
+    color: #007bff;
+}
+
+.texto-2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.branco{
+    background-color: white;
+}
+
+.arredondamento{
+    border-radius: 18px;
+    padding: 2px;
+}
+
+.container-colorido{
+    border-radius: 18px;
+    border: 2px solid #0464ca;
+}
+
+/* Animações */
+.animacao-mouse:hover{
+    margin: 18px;
+    scale: 20px;
+    transition: 2s;
+}
+/* Header */
+.fixado{
+    background-color: #007bff12;
+    width: 100%;
+}
+
+/* Minha foto */
+.minha-foto{
+    border-radius: 10em;
+}
+
+/* Aside */
+.cor-fundo{
+    background-image: linear-gradient(white 50%, #007bff 50%);
+}
+
+.caixa{
+    background-color: #007bff;
+    border-radius: 0 0 .9em 0.9em;
+}
+
+.teste{
+    background-color: aqua;
+}
+
+/* footer */
+
+#footer-box{
+    margin-top: 1em;
+    background-color: #0464ca;
+}
