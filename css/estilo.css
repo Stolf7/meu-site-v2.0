@@ -2,13 +2,33 @@
 
 .texto{
     font-weight: bold;
+    text-transform: uppercase;
     color: #007bff;
+}
+
+.texto-pequeno{
+    font-weight: bold;
+    color: #007bff;
+    font-size: 2em;
+}
+
+.texto-grande{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 6em;
+    color: white;
 }
 
 .texto-2{
     text-transform: uppercase;
     font-weight: bold;
     color: #007bff;
+}
+
+.texto-alternativo{
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
 }
 
 .branco{
@@ -35,6 +55,10 @@
 .fixado{
     background-color: #007bff12;
     width: 100%;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    z-index: 4;
 }
 
 /* Minha foto */
