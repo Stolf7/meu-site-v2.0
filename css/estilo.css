@@ -3,36 +3,40 @@
 .texto{
     font-weight: bold;
     text-transform: uppercase;
-    color: #007bff;
+    color: #0D0D0D;
 }
 
 .texto-pequeno{
     font-weight: bold;
-    color: #007bff;
+    color: #0D0D0D;
     font-size: 2em;
+    text-transform: uppercase;
 }
 
 .texto-grande{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 6em;
-    color: white;
+    color: #0D0D0D;
 }
 
 .texto-2{
     text-transform: uppercase;
     font-weight: bold;
-    color: #007bff;
+    color: #0D0D0D;
 }
 
-.texto-alternativo{
-    font-weight: bold;
-    color: white;
-    font-size: 2em;
+.texto-sobre{
+    margin-left: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: #0D0D0D;
 }
 
-.branco{
-    background-color: white;
+
+
+.branco{ 
+    background-color: #0D0D0D;
 }
 
 .arredondamento{
@@ -40,10 +44,7 @@
     padding: 2px;
 }
 
-.container-colorido{
-    border-radius: 18px;
-    border: 2px solid #0464ca;
-}
+
 
 /* Animações */
 .animacao-mouse:hover{
@@ -53,36 +54,146 @@
 }
 /* Header */
 .fixado{
-    background-color: #0464ca;
+    background-color: #d9d9d93c;
     width: 100%;
     display: flex;
     justify-content: end;
     position: fixed;
-    z-index: 4;
+    z-index: 1000;
+}
+
+/* Main */
+
+
+
+.estilizacao-container-sobre{
+    box-shadow: 0 2px 4px 2px rgb(67, 65, 65);
+}
+
+.estilizacao-container-contato{
+    box-shadow: 0 2px 4px 2px rgb(67, 65, 65);
+}
+
+.titulo-projetos{
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 /* Minha foto */
 .minha-foto{
     border-radius: 10em;
+    box-shadow: 1px 1px 6px 1px #404040;
 }
 
 /* Aside */
 .cor-fundo{
-    background-image: linear-gradient(white 50%, #007bff 50%);
+    background-image: linear-gradient(white 50%, #A6A6A6 50%);
 }
 
 .caixa{
-    background-color: #007bff;
-    border-radius: 0 0 .9em 0.9em;
+    background-color:rgba(89, 89, 89, 0.637);
+    border-radius: 0 0 0 0;
 }
 
 .teste{
     background-color: aqua;
 }
 
+/* Fale Comigo */
+
+.hr-aside{
+    height: 1px;
+    background-color: black;
+}
+
+.texto-contato{
+    font-size: 1.2em;
+    color: #0D0D0D;
+    text-transform: uppercase;
+}
+
+.nomeCampos{
+    font-size: 1.4em;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.campoTexto{
+    width: 26%;
+    height: 50%;
+}
+
+.campoTextoCx{
+    width: 41%;
+    height: 50%;
+}
+
+.botaoEnviar{
+    width: 10%;
+    height: 50%;
+    padding: .6em;
+    border-radius: .2em;
+    color: white;
+    background-color: #0D0D0D;
+    font-weight: bold;
+}
+
 /* footer */
 
 #footer-box{
     margin-top: 1em;
-    background-color: #0464ca;
+    background-color: #0D0D0D;
+}
+
+.texto-preto{
+    color: #0D0D0D;
+}
+
+
+
+/* Sessão skills */
+
+.texto-upper{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0D0D0D;
+}
+
+.col-caixa{
+    background: #0D0D0D;
+    color: white;
+    box-shadow: 1px 1px 10px 2px #404040;
+    padding: 18px;
+
+    transition: 2s;
+}
+
+.col-caixa:hover{
+    padding: 56px;
+
+    transition: 2s;
+}
+
+
+
+.hr-personalizado{
+    background: #A6A6A6;
+    height: 2px;
+    margin: 18px 0 18px 0;
+}
+
+.li-skills{
+    list-style: circle;
+}
+
+.img-caixa{
+    color: white;
+    box-shadow: 1px 1px 10px 1px #404040;
+}
+
+.texto-upper-projetos{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0D0D0D;
 }
